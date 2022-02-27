@@ -1,0 +1,171 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top: 0;
+    background-color: tomato;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    z-index:5555555;
+
+   
+}
+.nav_brand>span{
+ color:#fff;
+ font-family: 'Lobster', cursive;
+
+}
+
+.nav_bar{
+    display: flex;
+  
+}
+.nav_link{
+    margin: 0 20px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav_link:hover{
+    color: #fff;
+}
+.nav_profile{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.nav_profile:hover{
+    border: 2px solid  rgb(20, 230, 245);
+}
+
+.nav_account{
+    display: flex;
+  
+    
+}
+.navbar_menu,.menu_link,.menu_account,.menu{
+    display: none;
+}
+
+@media screen and (min-width:700px )and (max-width:900px){
+
+    .nav_brand{
+        font-size: 3rem;
+    }
+    .nav_link{
+        margin: 0 10px;
+        font-size: 2rem;
+    
+    }
+    .nav_profile{
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:700px){
+
+    .nav{
+        height: 5rem;
+        /* position: sticky; */
+
+    }
+    .nav_link{
+        display: none;
+       
+    }
+ 
+  
+    .navbar_menu{
+        font-size: 4rem;
+       display:flex;
+        cursor: pointer;
+            fill:linen;
+        
+    }
+    .menu{
+        background-color: black;
+        height: calc(100vh - 4rem );
+        position: fixed;
+        display: flex;
+        width: 50vw;
+        top: 50px;
+        margin: 0;
+        right: 0;
+        padding: 0;
+        transition: all 1s;
+      align-items: center;
+     
+      justify-content: center;
+   
+
+    }
+.menu_bar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    justify-content:space-around;
+    align-items: center;
+
+
+    
+}
+
+    .menu_link{
+       
+        color: #fff;
+        /* margin:0;
+        padding: 0; */
+        font-weight: bold;
+        display: flex;
+       /* font-size: 2rem; */
+      
+       
+        
+    }
+  
+    .menu_account {
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+    margin-bottom: 6rem;
+        border-radius: 50%;
+        border: 2px solid tomato;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+ 
+}
+
+
+
+
+
+
+
+/* @media screen and(min-width:768px){
+    
+.nav{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nav_link{
+    flex-wrap: wrap;
+}
+
+} */

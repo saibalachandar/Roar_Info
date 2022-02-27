@@ -1,0 +1,20 @@
+
+    .student_dept{
+        background-color:FFFFFF;
+    }
+
+
+
+@media screen and (min-width:768px){
+
+    .student_dept{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: calc(100vh - 60px);
+        flex-wrap: wrap;
+    }
+
+}
+

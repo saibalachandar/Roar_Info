@@ -1,0 +1,149 @@
+
+.info_profile{
+    background-color: #f5f5f5;
+    display: flex;
+flex-direction: column;
+align-items: center;
+height: calc(100vh - 60px);
+justify-content: center;
+}
+
+.info_profile_title{
+    margin: 0 0 20px 0;
+    
+}
+.user_details{
+    position: relative;
+  
+    background-color: #ffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+ border-radius: 20px;
+flex-direction: column;
+padding: 10px;
+ 
+ 
+}
+
+.input_box{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+
+}
+
+.info_profile_input{
+    padding: 1rem;
+    margin: .3rem;
+}
+
+.input_box>label{
+    width: 100%;
+    padding-bottom:10px ;
+    text-align: left;
+    background-color: rgb(255, 255, 255,.2);
+}
+
+
+.input_box > input{
+    border-radius: 10px;
+    padding: 13px 10px ;
+    border: none;
+    outline:none;
+    font-size: 2rem;
+    background-color: rgba(224, 224, 224, 0.3);
+}
+
+.input_box >select{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255,.2);
+  
+font-size: 2rem;
+text-align: center;
+color: royalblue;
+font-weight: bold;
+
+}
+
+
+
+.input_box>label{
+    font-size: 2rem;
+   font-weight: bold;
+
+}
+.info_profile_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+  transition: all 3s;
+}
+
+.btn_info_profile{
+    padding: 8px 30px;
+    /* width: 100px; */
+
+    outline: none;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    background:rgba(255, 111,135);
+}
+.btn_info_profile:hover{
+    background-color:royalblue;
+}
+
+
+
+@media screen and (min-width:350px)and (max-width:600px){
+    .user_details{
+        width: 90vw;
+    
+    }
+    .btn_register{
+        padding: 10px 50px;
+
+    }
+ 
+  
+
+}
+@media screen and (min-width:600px)and (max-width:1000px){
+    .user_details{
+        width: 50vw;
+
+    }
+    .btn_register{
+        padding: 10px 50px;
+
+    }
+
+
+}
+@media screen and (min-width:1000px){
+    .user_details{
+
+        display: flex; 
+        width: 30vw;
+    
+    }
+    .btn_register{
+        padding: 13px 50px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

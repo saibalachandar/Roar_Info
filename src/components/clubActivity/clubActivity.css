@@ -1,0 +1,28 @@
+.club_active_title{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.club_title{
+    color: #fff;
+    margin:0;
+    padding: 2rem 0 0 0 ;
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px){
+.club_active_title{
+    background-color: #fff;
+ 
+
+}
+.club_title{
+    color:black;
+    margin:0;
+    /* padding:2rem; */
+    text-align: center;
+}
+
+
+}

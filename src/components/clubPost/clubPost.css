@@ -1,0 +1,119 @@
+
+.club{
+/* width: 100vw; */
+    height: calc( 100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       background-color: black;
+       position: relative;
+
+
+    
+}
+
+
+.club_post{
+     width: 70rem;
+    height: 40rem; 
+   display: flex;
+
+background-color: #fff;
+position: absolute;
+
+
+
+   
+   box-shadow: rgba(136, 165, 191, 0.4) 6px 2px 16px 0px, rgba(255, 255, 255, 0.4) -6px -2px 16px 0px;
+
+}
+.club_event{
+    flex: 1;
+    
+    
+}
+.club_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+
+}
+.club_activity{
+    /* margin:0  2rem 0 0; */
+    flex: 2;
+    display:flex;
+   
+    flex-direction: column;
+    justify-content: space-around;
+}
+.club_author{
+
+    margin: 0;
+}
+.icon_club{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-align: center;
+}
+.club_icon{
+    font-size: 3rem;
+    display: flex;
+}
+.club_details>span{
+color: tomato;
+}
+
+.icon_delete{
+    margin: 0 0 0 3rem;
+    fill: red;
+    cursor: pointer;
+}
+
+.club_author{
+    color:slateblue;
+}
+
+
+
+@media screen and (max-width:700px){
+ 
+.club{
+    background-color: #fff;
+    
+}
+
+    .club_post{
+       
+        flex-direction: column;
+        width: 90vw;
+        height: calc( 90vh - 80px );
+        margin: 2rem;
+        justify-content: center;
+        /* overflow: hidden; */
+
+        margin: 0;
+   
+        
+    }
+    .club_activity{
+     margin: 0 1rem;
+     /* width: 100%; */
+     
+     /* padding: 0 1rem; */
+        justify-content:center;
+       
+      
+    }
+    .club_details{
+     font-size: 2rem;
+    
+     padding: 0;
+    }
+.icon_delete{
+    margin: 0 0 0 1rem  ;
+}
+
+}

@@ -1,0 +1,61 @@
+
+
+  .dept{
+    display: flex;
+    justify-content: space-evenly;
+     flex-wrap: wrap;
+
+    
+      }
+      .year {
+        width: 280px;
+        height: 480px;
+        margin: 30px 10px;
+        /* overflow: hidden; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 40px 0;
+        background: #000;
+        color: #fff;
+ 
+      }
+      /* .card:hover {
+        transform: scale(1);
+      } */
+
+      
+
+
+      .year__img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0 100%, 0% 100%);
+      }
+      
+      .year__name {
+        text-align: center;
+        margin:  20px;
+        font-size: 5rem;
+        white-space: nowrap;
+ 
+      }
+ 
+
+      .year__thought{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 0 5px;
+        opacity: 0.4;
+        text-align: center;
+      }
+      
+  @media screen and (min-width:768px){
+    .year {
+        width: 300px;
+        height: 500px;
+        
+     
+ 
+      }
+
+  }

@@ -1,0 +1,108 @@
+.profile{
+
+
+margin: 20px;
+display: flex;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.profile_left{
+
+/* left: 0; */
+  /* margin: 20px; */
+text-align: center;
+    flex: 1;
+  width: 100%;
+  /* overflow: hidden; */
+    background: linear-gradient(to right,#01a9ac,#01dbdf);
+
+  }
+  .profile_name{
+      color: #fff;
+      margin-bottom:10px;
+      font-size: 3rem;
+          font-family: 'Pacifico', cursive;
+          /* font-family: 'Lobster', cursive; */
+          
+        }
+
+    
+  .profile_img{
+      width: 25rem;
+      height: 30rem;
+      object-fit: cover;
+      margin: 20px ;
+
+      
+  }
+  .profile_right{
+      float: 1;
+      width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .profile_icon{
+    fill:dodgerblue;
+    margin: 0;
+    
+  }
+  .profile_details{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  
+    text-align: left;
+    align-items: flex-start;
+   
+  }
+  .profile_knowledge{
+    color: dodgerblue;
+
+
+    
+    font-family: 'Cinzel', serif;
+  
+    
+  }
+  .icon_profile{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+ .icon_delete{
+    color: tomato;
+  }
+ .icon_color{
+    color:slateblue;
+  }
+
+  @media screen and (max-width:800px){
+
+
+.profile{
+  flex-direction: column;
+  /* margin: 0; */
+}
+
+.profile_img{
+  width: 20rem;
+  height: 25rem;
+  object-fit: cover;
+  margin: 20px ;
+  /* flex-wrap: wrap; */
+}
+.profile_name{
+margin: 0;
+font-size: 2.5rem;
+}
+
+.profile_details{
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+  }

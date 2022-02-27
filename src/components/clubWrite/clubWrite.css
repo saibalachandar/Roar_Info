@@ -1,0 +1,161 @@
+.write{
+    padding: 30px;
+}
+
+.writeform{
+    position: relative;
+}
+
+
+.input_container{
+display: flex;
+flex-direction: column;
+}
+.writeicon{
+    width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 1px solid gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   /* color: gray; */
+   cursor: pointer;
+
+   
+   }
+   .writeinput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    color: midnightblue;
+
+    /* outline: none; */
+}
+
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
+.writeinput:focus{
+    outline: none;
+}
+.writeimg{
+    /* display: grid; */
+    /* place-items: center; */
+    margin-left: 150px;  
+    text-align: center;
+    width: 70vw; 
+    text-align: center;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 10px;
+   }
+
+.writesubmit{
+
+    padding: .5rem 6rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+
+    background-color: turquoise;
+    font-family: 'Pacifico', cursive;
+font-size: 2rem;
+    background-color: mediumturquoise;
+    cursor: pointer;
+    margin: 2rem;
+
+}
+
+   /* .writesubmit{
+    position: absolute;
+    bottom: 20px;
+    left:  100px;
+    color: #fff;
+    background-color: teal;
+   border: none;
+   padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   border-radius: 10px;
+   text-align: center;
+   cursor: pointer;
+} */
+
+/* .write{
+    padding-top: 50px;
+    
+    }
+    .writeform{
+    position: relative;
+    }
+ 
+  
+ 
+    .writetext{
+        font-size: 20px;
+        height: 100vh;
+    }
+ 
+
+    @media screen and (max-width:768px){
+
+
+
+    } */
+    @media screen and (max-width:768px){
+
+        .write{
+            /* text-align: left; */
+            padding: 0 ;
+        }
+.formgrp{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input_container{
+    text-align: left;
+}
+.writeinput{
+   margin: 0;
+padding: 15px;
+font-size: 2.5rem;
+    display: flex;
+  
+
+    justify-content: left;
+}
+.writeimg{
+   width: 90vw;
+   display: flex;
+   margin: 20px;
+   align-items: center;
+   justify-content: center;
+   height: 20rem;
+   text-align: center;
+}
+
+    }
+
+    @media screen and (min-width:768px){
+
+.formgrp{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+    }
+    
+
+
